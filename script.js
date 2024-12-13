@@ -7,8 +7,10 @@ function imagereset() {
 
 function highlight() {
   listItem.style.color = "Red";
+  listItem.style.fontWeight = "bold";
 }
 
 function reset() {
   listItem.style.color = "Black";
+  listItem.style.fontWeight = "normal";
 }
